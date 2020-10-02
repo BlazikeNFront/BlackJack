@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href = 'styles\styles.css'>
+    <title>BlackJack</title>
+</head>
+<body>
+    <main data-link='main'>
+        <header>
+            <h1>BlackJack</h1>
+        </header>
+        <div class = 'message' data-link='message'></div>
+        <div class = 'table' data-link='table'>
+            <h2> Twoje karty</h2>
+            <div class='playersCards' data-link='playersCards'>
+                
+            </div>
+            <h2>Krupier</h2>
+            <div class = 'dealersCards' data-link='dealersCards'>
+                
+            </div>
+
+        </div>
+        <div class='points'>
+            <p data-link-playersPoints>Punkty gracza </p>
+            <p data-link-dealersPoints>Punkty krupiera</p>
+        </div>
+        <div class='buttons'>
+            <button class='hit'data-link='hit'>Dobierz karte</button>
+            <button class='stand'data-link='stand'>Zostaje</button>
+        </div>
+
+
+    </main>
+
+
+
+
+    <script type = 'module' src="src\main.js"></script>
+</body>
+</html>

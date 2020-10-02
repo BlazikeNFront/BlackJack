@@ -1,0 +1,98 @@
+*,
+*::after,
+*::before {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html {
+    font-size:62.5%;
+}
+
+header {
+    margin-top: 3rem;
+    text-align: center;
+
+}
+
+header h1 {
+    font-size:3rem;
+}
+.table {
+    margin:2rem auto;
+    padding: 3rem 5rem;
+    color:white;
+    border:0.3rem solid black;
+    border-radius:2rem;
+    width:60rem;
+    height:50rem;
+    background-color:darkgreen;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color:white;
+
+
+}
+h2 {
+    padding-left:1rem;
+    padding-bottom:1rem;
+    display:inline-block;
+    border-bottom: 0.1rem solid white;
+}
+.points {
+    margin:0 auto;
+    border-top:0.2rem solid black;
+    border-bottom:0.2rem solid black;
+    width:70%;
+    font-weight: bold;
+    font-size:2rem;
+    text-align: center;
+}
+
+.points p {
+    padding:0.5rem 0 0.5rem 0
+}
+
+.buttons {
+    margin-top:2rem;
+    padding:0.5rem 13rem;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.buttons button {
+    padding:1rem 2rem;
+    border:0rem;
+    border-radius:1.8rem;
+    background-color: black;
+    color:white;
+
+}
+
+
+.card {
+    background-color:white;
+    width: 7rem;
+    height: 11rem;
+    border-radius: 1rem;
+   font-size:1.5rem;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+}
+.hearts{
+    color:red;
+    
+}
+.diamonds{
+    color:red;
+    
+}
+.clubs {
+    color:black;
+   
+}
+.spades {
+    color:black;
+}
