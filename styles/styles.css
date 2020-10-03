@@ -70,6 +70,12 @@ h2 {
 
 }
 
+.playersCards,.dealersCards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
 
 .card {
     background-color:white;
