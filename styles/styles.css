@@ -70,9 +70,32 @@ h2 {
 
 }
 
+.reset {
+    padding:1rem 2rem;
+    border:0rem;
+    border-radius:1.8rem;
+    background-color: black;
+    color:white;
+
+}
+
 .playersCards,.dealersCards {
     display: flex;
     justify-content: space-evenly;
+}
+.message {
+    display:none;
+    
+    font-size: 5rem;
+
+    border: 2px solid;
+    width: 30rem;
+    font-size: 5rem;
+    position: absolute;
+    margin-left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    margin-top: 23rem;
 }
 
 

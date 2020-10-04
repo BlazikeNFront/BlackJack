@@ -11,7 +11,11 @@
         <header>
             <h1>BlackJack</h1>
         </header>
-        <div class = 'message' data-link='message'></div>
+        <div class = 'message' data-link='message'>
+            <p class='resultInfo' data-link='resultInfo'></p>
+            <button class ='reset' data-link='resetGame'>Zagraj jeszcze raz</button>
+            
+        </div>
         <div class = 'table' data-link='table'>
             <h2> Twoje karty</h2>
             <div class='playersCards' data-link='playersCards'>
@@ -24,8 +28,8 @@
 
         </div>
         <div class='points'>
-            <p data-link-playersPoints>Punkty gracza </p>
-            <p data-link-dealersPoints>Punkty krupiera</p>
+            <p data-link='playersPoints'>Punkty gracza </p>
+            <p data-link='dealersPoints'>Punkty krupiera</p>
         </div>
         <div class='buttons'>
             <button class='hit'data-link='hit'>Dobierz karte</button>
